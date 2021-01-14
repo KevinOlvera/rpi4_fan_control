@@ -1,3 +1,7 @@
+# To add on boot type:
+# $ sudo crontab -e
+# Then add @reboot python /home/pi/fancontrol_pwm.py a the end of the file
+
 import RPi.GPIO as GPIO
 import time
 import signal
